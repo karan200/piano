@@ -20,41 +20,41 @@ function setup() {
 
   createCanvas(800,400);
 
-  pianoBg=createSprite(400,200,10,10);
-  pianoBg.addImage(BgIm);
-  pianoBg.scale=7;
+  //pianoBg=createSprite(400,200,10,10);
+  //pianoBg.addImage(BgIm);
+  //pianoBg.scale=7;
 
-  blue=createSprite(50,200,50,50);
+  blue=createSprite(50,200,10,100);
   blue.addImage(blueIm);
-  blue.scale=1.5;
+  blue.scale=0.5;
 
   green=createSprite(150,200,50,50);
   green.addImage(greenIm);
-  green.scale=1.5;
+  green.scale=0.5;
 
   orange=createSprite(250,200,50,50);
   orange.addImage(orangeIm);
-  orange.scale=1.5;
+  orange.scale=0.5;
   
   pink=createSprite(350,200,50,50);
   pink.addImage(pinkIm);
-  pink.scale=1.5;
+  pink.scale=0.5;
   
   purple=createSprite(450,200,50,50);
   purple.addImage(purpleIm);
-  purple.scale=1.5;
+  purple.scale=0.5;
 
   red=createSprite(550,200,50,50);
   red.addImage(redIm);
-  red.scale=1.5;
+  red.scale=0.5;
 
   white=createSprite(650,200,50,50);
   white.addImage(whiteIm);
-  white.scale=1.5;
+  white.scale=0.5;
 
   yellow=createSprite(750,200,50,50);
   yellow.addImage(yellowIm);
-  yellow.scale=1.5;
+  yellow.scale=0.5;
 
 }
 
