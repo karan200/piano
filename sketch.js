@@ -22,7 +22,7 @@ function setup() {
 
   pianoBg=createSprite(450,160,800,200);
   pianoBg.addImage(BgIm);
-  pianoBg.scale=8.2;
+  pianoBg.scale=0.9;
 
   blue=createSprite(100,350,10,100);
   blue.addImage(blueIm);
