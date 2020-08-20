@@ -18,41 +18,40 @@ function preload() {
 
 function setup() {
 
-  createCanvas(800,400);
+  createCanvas(900,500);
 
-  //pianoBg=createSprite(400,200,10,10);
-  //pianoBg.addImage(BgIm);
-  //pianoBg.scale=7;
+  pianoBg=createSprite(450,250,800,300);
+  pianoBg.fill(green)
 
-  blue=createSprite(50,200,10,100);
+  blue=createSprite(100,350,10,100);
   blue.addImage(blueIm);
   blue.scale=0.5;
 
-  green=createSprite(150,200,50,50);
+  green=createSprite(200,350,50,50);
   green.addImage(greenIm);
   green.scale=0.5;
 
-  orange=createSprite(250,200,50,50);
+  orange=createSprite(300,350,50,50);
   orange.addImage(orangeIm);
   orange.scale=0.5;
   
-  pink=createSprite(350,200,50,50);
+  pink=createSprite(400,350,50,50);
   pink.addImage(pinkIm);
   pink.scale=0.5;
   
-  purple=createSprite(450,200,50,50);
+  purple=createSprite(500,350,50,50);
   purple.addImage(purpleIm);
   purple.scale=0.5;
 
-  red=createSprite(550,200,50,50);
+  red=createSprite(600,350,50,50);
   red.addImage(redIm);
   red.scale=0.5;
 
-  white=createSprite(650,200,50,50);
+  white=createSprite(700,350,50,50);
   white.addImage(whiteIm);
   white.scale=0.5;
 
-  yellow=createSprite(750,200,50,50);
+  yellow=createSprite(800,350,50,50);
   yellow.addImage(yellowIm);
   yellow.scale=0.5;
 
