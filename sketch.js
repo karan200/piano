@@ -20,8 +20,9 @@ function setup() {
 
   createCanvas(900,500);
 
-  //pianoBg=createSprite(450,250,800,300);
-  //pianoBg.fill(green)
+  pianoBg=createSprite(450,160,800,200);
+  pianoBg.addImage(BgIm);
+  pianoBg.scale=8.2;
 
   blue=createSprite(100,350,10,100);
   blue.addImage(blueIm);
