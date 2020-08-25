@@ -1,6 +1,7 @@
 var blue,green,orange,pink;
 var purple,red,white,yellow;
 var pianoBg,BgIm;
+var icon;
 
 function preload() {
 
@@ -13,6 +14,7 @@ function preload() {
   whiteIm = loadImage("white.png");
   yellowIm = loadImage("yellow.png");
   BgIm = loadImage("background.png");
+  iconIm = loadImage("icon.png");
 
 }
 
@@ -60,9 +62,14 @@ function setup() {
 
 function draw() {
   background("skyBlue");
- 
+  
+  drawSprites();
   if(mousePressedOver(blue)){
     blue.scale=1;
+    icon=createSprite(200,200,10,10);
+    icon.addImage(iconIm);
+    icon.scale=0.3;
+    icon.velocityY=-5;
   }else{
     blue.scale=1.5;
   }
@@ -108,6 +115,4 @@ function draw() {
   }else{
     yellow.scale=1.5;
   }
-
-  drawSprites();
 }
