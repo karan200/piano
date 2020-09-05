@@ -2,7 +2,7 @@ var blue,green,orange,pink;
 var purple,red,white,yellow;
 var pianoBg,BgIm;
 var icon,icon2;
-var sound;
+var iconIm;
 
 function preload() {
 
@@ -66,49 +66,112 @@ function draw() {
   background("skyBlue");
   if(mousePressedOver(blue)){
     blue.scale=1;
+    icon=createSprite(350,150,10,10);
+    icon.addImage(iconIm);
+    icon.scale=0.3;
+    icon.velocityY=-5;
+    icon2=createSprite(950,150,10,10);
+    icon2.addImage(iconIm);
+    icon2.scale=0.3;
+    icon2.velocityY=-5;
   }else{
     blue.scale=1.5;
   }
 
   if(mousePressedOver(green)){
     green.scale=1;
-
+    icon=createSprite(350,150,10,10);
+    icon.addImage(iconIm);
+    icon.scale=0.3;
+    icon.velocityY=-5;
+    icon2=createSprite(950,150,10,10);
+    icon2.addImage(iconIm);
+    icon2.scale=0.3;
+    icon2.velocityY=-5;
   }else{
     green.scale=1.5;
   }
 
   if(mousePressedOver(orange)){
     orange.scale=1;
+    icon=createSprite(350,150,10,10);
+    icon.addImage(iconIm);
+    icon.scale=0.3;
+    icon.velocityY=-5;
+    icon2=createSprite(950,150,10,10);
+    icon2.addImage(iconIm);
+    icon2.scale=0.3;
+    icon2.velocityY=-5;
   }else{
     orange.scale=1.5;
   }
 
   if(mousePressedOver(pink)){
     pink.scale=1;
+    icon=createSprite(350,150,10,10);
+    icon.addImage(iconIm);
+    icon.scale=0.3;
+    icon.velocityY=-5;
+    icon2=createSprite(950,150,10,10);
+    icon2.addImage(iconIm);
+    icon2.scale=0.3;
+    icon2.velocityY=-5;
   }else{
     pink.scale=1.5;
   }
 
   if(mousePressedOver(purple)){
     purple.scale=1;
+    icon=createSprite(350,150,10,10);
+    icon.addImage(iconIm);
+    icon.scale=0.3;
+    icon.velocityY=-5;
+    icon2=createSprite(950,150,10,10);
+    icon2.addImage(iconIm);
+    icon2.scale=0.3;
+    icon2.velocityY=-5;
   }else{
     purple.scale=1.5;
   }
 
   if(mousePressedOver(red)){
     red.scale=1;
+    icon=createSprite(350,150,10,10);
+    icon.addImage(iconIm);
+    icon.scale=0.3;
+    icon.velocityY=-5;
+    icon2=createSprite(950,150,10,10);
+    icon2.addImage(iconIm);
+    icon2.scale=0.3;
+    icon2.velocityY=-5;
   }else{
     red.scale=1.5;
   }
 
   if(mousePressedOver(white)){
     white.scale=1;
+    icon=createSprite(350,150,10,10);
+    icon.addImage(iconIm);
+    icon.scale=0.3;
+    icon.velocityY=-5;
+    icon2=createSprite(950,150,10,10);
+    icon2.addImage(iconIm);
+    icon2.scale=0.3;
+    icon2.velocityY=-5;
   }else{
     white.scale=1.5;
   }
 
   if(mousePressedOver(yellow)){
     yellow.scale=1;
+    icon=createSprite(350,150,10,10);
+    icon.addImage(iconIm);
+    icon.scale=0.3;
+    icon.velocityY=-5;
+    icon2=createSprite(950,150,10,10);
+    icon2.addImage(iconIm);
+    icon2.scale=0.3;
+    icon2.velocityY=-5;
   }else{
     yellow.scale=1.5;
   }
