@@ -6,7 +6,7 @@ var iconIm;
 var audio;
 
 function preload() {
-  //soundFormats('mp3', 'ogg');
+  soundFormats('mp3', 'ogg');
   blueIm = loadImage("blue.png");
   greenIm = loadImage("green.png");
   orangeIm = loadImage("orange.png");
@@ -24,7 +24,7 @@ function preload() {
   audio5 = loadSound("D.wav");
   audio6 = loadSound("E.wav");
   audio7 = loadSound("F.wav");
-//  audio8 = loadSound("Grand_Piano.wav");
+  audio8 = loadSound("F.wav");
 
 }
 
@@ -190,7 +190,7 @@ function draw() {
     icon2.addImage(iconIm);
     icon2.scale=0.3;
     icon2.velocityY=-5;
-//    audio8.play();
+    audio8.play();
   }else{
     yellow.scale=1.5;
   }
