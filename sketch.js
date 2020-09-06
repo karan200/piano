@@ -3,9 +3,10 @@ var purple,red,white,yellow;
 var pianoBg,BgIm;
 var icon,icon2;
 var iconIm;
+var audio;
 
 function preload() {
-
+  //soundFormats('mp3', 'ogg');
   blueIm = loadImage("blue.png");
   greenIm = loadImage("green.png");
   orangeIm = loadImage("orange.png");
@@ -16,7 +17,14 @@ function preload() {
   yellowIm = loadImage("yellow.png");
   BgIm = loadImage("background.png");
   iconIm = loadImage("icon.png");
-  sound = loadSound("A.wav");
+  audio1 = loadSound("A.wav");
+  audio2 = loadSound("B.wav");
+  audio3 = loadSound("C.wav");
+  audio4 = loadSound("C2.wav");
+  audio5 = loadSound("D.wav");
+  audio6 = loadSound("E.wav");
+  audio7 = loadSound("F.wav");
+  audio8 = loadSound("Grand_Piano.wav");
 
 }
 
@@ -64,6 +72,7 @@ function setup() {
 
 function draw() {
   background("skyBlue");
+
   if(mousePressedOver(blue)){
     blue.scale=1;
     icon=createSprite(350,150,10,10);
@@ -74,6 +83,9 @@ function draw() {
     icon2.addImage(iconIm);
     icon2.scale=0.3;
     icon2.velocityY=-5;
+    audio1.play();
+
+    
   }else{
     blue.scale=1.5;
   }
@@ -88,6 +100,7 @@ function draw() {
     icon2.addImage(iconIm);
     icon2.scale=0.3;
     icon2.velocityY=-5;
+    audio2.play();
   }else{
     green.scale=1.5;
   }
@@ -102,6 +115,7 @@ function draw() {
     icon2.addImage(iconIm);
     icon2.scale=0.3;
     icon2.velocityY=-5;
+    audio3.play();
   }else{
     orange.scale=1.5;
   }
@@ -116,6 +130,7 @@ function draw() {
     icon2.addImage(iconIm);
     icon2.scale=0.3;
     icon2.velocityY=-5;
+    audio4.play();
   }else{
     pink.scale=1.5;
   }
@@ -130,6 +145,7 @@ function draw() {
     icon2.addImage(iconIm);
     icon2.scale=0.3;
     icon2.velocityY=-5;
+    audio5.play();
   }else{
     purple.scale=1.5;
   }
@@ -144,6 +160,7 @@ function draw() {
     icon2.addImage(iconIm);
     icon2.scale=0.3;
     icon2.velocityY=-5;
+    audio6.play();
   }else{
     red.scale=1.5;
   }
@@ -158,6 +175,7 @@ function draw() {
     icon2.addImage(iconIm);
     icon2.scale=0.3;
     icon2.velocityY=-5;
+    audio7.play();
   }else{
     white.scale=1.5;
   }
@@ -172,6 +190,7 @@ function draw() {
     icon2.addImage(iconIm);
     icon2.scale=0.3;
     icon2.velocityY=-5;
+    audio8.play();
   }else{
     yellow.scale=1.5;
   }
