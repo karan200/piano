@@ -84,8 +84,6 @@ function draw() {
     icon2.scale=0.3;
     icon2.velocityY=-5;
     audio1.play();
-
-    
   }else{
     blue.scale=1.5;
   }
